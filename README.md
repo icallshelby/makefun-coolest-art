@@ -1,17 +1,15 @@
-# The Owl and the Archer
+# The Fisherman and the Kintsugi Moon
 
-An elf archer with a bow standing on a snowy cliff, behind her a giant celestial owl with star-filled wings, aurora borealis in a night sky, snowy mountains.
+An ink-wash sumi-e painting of a fisherman in a small boat on a misty lake, holding a very long brush that paints a large moon with golden kintsugi-style cracks; the moon's golden-cracked reflection shimmers in the dark water.
 
-This repository is a make.fun entry for competition `coolest-art-01`. The program `main.py` copies the user-supplied artwork (`art.jpg`) to the designated output path as `entry.png`.
+## About
 
-## How to Run
+This entry for the `coolest-art-01` competition on `make.fun` includes the original artwork and a deterministic Python program that copies the supplied artwork byte-for-byte to the required output path as `entry.png`.
+
+## Running
 
 ```bash
 python3 main.py
 ```
 
-You can customize the output directory by setting the `MAKEFUN_OUTPUT_DIR` environment variable:
-
-```bash
-MAKEFUN_OUTPUT_DIR=./out python3 main.py
-```
+Set `MAKEFUN_OUTPUT_DIR` to specify a custom output directory (defaults to `/output`).
