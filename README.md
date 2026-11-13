@@ -1,15 +1,17 @@
-# Ironing the Milky Way
+# The Owl and the Archer
 
-An astronaut ironing the Milky Way galaxy on a giant ironing board floating in deep space.
+An elf archer with a bow standing on a snowy cliff, behind her a giant celestial owl with star-filled wings, aurora borealis in a night sky, snowy mountains.
 
-## About
+This repository is a make.fun entry for competition `coolest-art-01`. The program `main.py` copies the user-supplied artwork (`art.jpg`) to the designated output path as `entry.png`.
 
-This repository is a make.fun entry for competition `coolest-art-01`. It contains the original artwork (`art.jpg`) and a deterministic, pure Python 3 program (`main.py`) that copies the image to the designated output path as `entry.png`.
-
-## Running
+## How to Run
 
 ```bash
 python3 main.py
 ```
 
-Set `MAKEFUN_OUTPUT_DIR` to specify a custom output directory (defaults to `/output`).
+You can customize the output directory by setting the `MAKEFUN_OUTPUT_DIR` environment variable:
+
+```bash
+MAKEFUN_OUTPUT_DIR=./out python3 main.py
+```
